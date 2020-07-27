@@ -4,5 +4,6 @@ class CreatePosts < ActiveRecord::Migration[6.0]
       t.text :content
       t.boolean :checked
       t.timestamps
+    end
   end
 end
