@@ -31,6 +31,7 @@ function memo() {
 
       XHR.onerror = function () {
         alert("Request failed");
+      };
   
       e.preventDefault();
       
